@@ -1,0 +1,144 @@
+Hello Beautiful People.....
+
+This is the first video of my tutorial series of android development in JAVA
+Today, We will be focusing on basic components of android app, primarily The BUTTON
+
+So, Lets start.......
+
+Fire up your android studio and create a new Project.
+Choose Empty activity as template as we will be creating our own layout.
+
+Enter a name, location and Language(Java) then press finish.
+
+If you are firing up android studio for the first time, It will take couple of minutes to download latest gradle files from the web and build project. As you continue using this IDE the time to build gets shorter.
+
+So, This is how our project looks like..
+Mainly, we have 3 sections for our app
+
+1. JAVA
+2. RESOURCES
+3. GRADLE DEPENDENCIES
+
+Java folder contains our logic(code) for our app. In other words it is our backend of the app
+
+Res folder contains assets/resources for our app, like icons, images, fonts,etc.
+
+Gradle Scripts section consists of various gradle files (configuration of our app like app version, target android versions, included libraries, etc.)
+
+There is one more important file in our app which is Manifest. This is basically the setting of the app.
+
+Lets begin coding now......
+
+
+we have layout file of our first activity( an activity is a page/ screen we see in the app)
+layout file is an xml file which we can design by code or GUI. I recommend design by code as it has more flexibility and learning curve. So, lets start by designing how our app looks....
+
+I will remove all the components that were previously there like TextView. 
+Change the parent layout to Linear Layout like this,
+Then create a button in the center like this 
+We've created a button, set the gravity to center, Now the button is in center top of the layout.
+Now we'll Add some text to our button and customize our button
+We have designed this button with background color and textcolor
+Now we have to link the button to some event so that when user clicks the button, something happens.
+
+For that, we need to declare button in MainActivity.java and handle onClick events like this...
+when u happen to see redline or error in code.. go to that part of code and press Alt+enter to show recommendations.
+Thats it.. the code is complete, Run the code by clicking green arrow and selecting emulator or real physical device.
+The emulator takes a bit time to load... 
+Here it is... Its working....
+THanks for watching and hope you guys liked it.
+
+please Like the video and subscribe to my channel if you learned something today ....
+THank you.....
+
+Hello again beautiful people,
+This is the second video of my tutorial series. In the last video, we created a button and linked it with Toast message. In this video we will try to customize our button a little bit more....
+We will add custom background to out button and implement style so that we can reuse the button later anywhere int the application.
+Lets begin........
+I am starting of where i left in the last video... if you have not seen the last video, please watch it and come back later.
+First, we need a rouded corner for our button and a background color... we create a drawable for the same like this.....
+We've created the drawable... as you can see this drawable has a rounded corner and primary color as background.
+Now we set this as background for our button... Our button has rounded corners now....
+
+we will create a couple of more buttons to see the difference
+we will increase the radius a bit more
+
+now lets create different onClick events for different buttons
+lets check if its working..
+
+Yep Its working.....
+
+Lets try and add some more customization to our button...
+
+1. Add stroke in button
+2. Add color and stroke
+3. Add gradient 
+
+Lets go
+
+Now We'll create gradient drawable for the background . We've created all buttons and set corresponding backgroundss as well. lets see of its working as intended.
+
+Its working ......
+Hope you guys liked it.. THanks for watching...
+ Good day folks.......
+Hello again beautiful people,
+
+In this video I'll show you how to make custom styles for our buttons and use the styles anywhere in the application... 
+For that browse to res>values>styles.xml
+
+Please be careful and do not change any other code other than what i show you....
+
+Create a new style for our button like this
+MyCustombutton is the name of our style...
+This will be our parent style and will include all the common attributes in all our buttons like this..
+
+Look how our XML design code shrinks to a few lines......
+Now we define styles for other button as child of MyCustomButton
+
+So... we've defined styles in our styles.xml and we can use these styles in any component of application
+
+Thank you for watching ....
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- This is the basic button -->
+    <!-- We can include our style in our button like this. After that we dont need
+     our attributes which we defined in our style.. So i am gonna remove them-->
+    <Button
+        android:id="@+id/Btn1"
+        style="@style/MyCustomButton"
+        android:text="Click me I am Basic button" />
+
+    <!-- This is the simple button with background color and text color set -->
+    <Button
+        android:id="@+id/Btn2"
+        style="@style/SimpleButton"
+        android:text="Click me I am Simple button"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"/>
+
+    <!-- This is the fully customized button with rounded corner -->
+    <Button
+        android:id="@+id/Btn3"
+        style="@style/SimpleButton"
+        android:text="Click me I am customised button"
+        />
+    <!-- This is the fully customized button with rounded corner -->
+    <Button
+        android:id="@+id/Btn4"
+        style="@style/StrokeButton"
+        android:text="Click me I am customised button"
+        />
+    <!-- This is the fully customized button with rounded corner -->
+    <Button
+        android:id="@+id/Btn5"
+        style="@style/StrokeWithColorButton"
+        android:text="Click me I am customised button"
+        />
+    <!-- This is the fully customized button with rounded corner -->
+    <Button
+        android:id="@+id/Btn6"
+        style="@style/GradientButton"
+        android:text="Click me I am gradient button"
+       />
+</LinearLayout>

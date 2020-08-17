@@ -1,0 +1,39 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- This is our parent Style of Buttons-->
+    <style name="MyCustomButton">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">20sp</item>
+    </style>
+    <!-- This is Style of SimpleButton-->
+    <style name="SimpleButton" parent="MyCustomButton">
+        <item name="android:background">@drawable/bg_button</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <!-- This is Style of SimpleButton-->
+    <style name="StrokeButton" parent="MyCustomButton">
+        <item name="android:background">@drawable/bg_button_stroke</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+    <!-- This is Style of SimpleButton-->
+    <style name="StrokeWithColorButton" parent="MyCustomButton">
+        <item name="android:background">@drawable/bg_button_stroke_color</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+    <!-- This is Style of SimpleButton-->
+    <style name="GradientButton" parent="MyCustomButton">
+        <item name="android:background">@drawable/bg_button_gradient</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>
